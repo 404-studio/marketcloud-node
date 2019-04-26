@@ -23,7 +23,7 @@ module.exports = (function () {
     this.public_key = config.public_key
     this.secret_key = config.secret_key
 
-    this.baseUrl = 'https://api.marketcloud.it'
+    this.baseUrl = 'http://marketcloud.studio404.net:5000'
 
     // Marketcloud's api is versioned by URL
     // for instance, the current api is api.marketcloud.it/v0/<endpoint>
